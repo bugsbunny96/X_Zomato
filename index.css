@@ -1,0 +1,173 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+/* HEADER */
+.header{
+    background-color: #ce0505;
+    height: 50px;
+}
+
+.header-logo{
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 33px;
+    margin-left: 1%;
+    text-align: center;
+}
+.header-logo a{
+    text-decoration: none;
+    color: red;
+}
+#social{
+    float: right;
+}
+#social .slogo{
+    height: 50px;
+    width: 50px;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+}
+
+.account{
+    display: inline-block;
+    margin: 10px 10px 0px 5px ;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 2px 2px 10px;
+}
+
+/* MAIN */
+.main{
+    background-color: #fbfbfb;
+}
+.heading{
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #192f60;
+    /* text-align: left; */
+    background-image: url(https://c0.wallpaperflare.com/preview/13/60/32/vietnam-ho-chi-minh-city-noodle-foodphotography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42%;
+    text-align: center;
+}
+.heading p{
+    display: block;
+}
+#hText{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 500px;
+    color: #ce0505;
+    font-size: 50px;
+}
+
+/* DROPDOWN */
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+select{
+    height: 60px;
+    width: 35%;
+    font-size: 20px;
+    text-align: center;
+}
+.restList{
+    width: 50%;
+}
+
+/* QUICK SEARCH */
+#quickSearch{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#quickHeading{
+    color: #eb2929;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+    display: block;
+}
+#quickSubH{
+    line-height: 2;
+    color: gray;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.tileContainer{
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px gray;
+}
+.tileComp1{
+    width: 58%;
+    float: left;
+    height: 200px;
+}
+.tileComp1 img{
+    height: 200px;
+    width: 100%;
+}
+.tileComp2{
+    width: 32%;
+    float: left;
+    height: 100px;
+    margin-left: 6%;
+    margin-top: 7%;
+}
+.compHeading{
+    font-size: 25px;
+    color: orangered;
+}
+.compHeading a{
+    color: orangered;
+    font-weight: bold;
+}
+.compSubH{
+    font-size: 20px;
+    color: gray;
+}
+
+/* FOOTER */
+footer{
+    margin: 1px;
+    background-color: #ce0505;
+    height: 3.5%;
+    width: 100%;
+    display: inline-block;
+    bottom: 0%;
+}
+.footerBottom p{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 4px;
+    margin-left: 32px;
+    font-weight: bold;
+}
+.footerBottom p a{
+    color: rgb(0, 255, 213);
+    font-weight: bold;
+    font-size: 16px;
+}
