@@ -171,3 +171,38 @@ footer{
     font-weight: bold;
     font-size: 16px;
 }
+@media screen and (max-width:1600px){
+    body{
+        background-color: rgb(0, 186, 248);
+    }
+}
+@media screen and (max-width:1500px){
+    body{
+        background-color: rgb(0, 255, 13);
+    }
+    .tileContainer{
+        width: 45%;
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(251, 100, 0);
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(251, 0, 0);
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(251, 0, 251);
+    }
+}
+
+window.innerWidth
+1482
+window.innerWidth
+954
+window.innerWidth
+500
