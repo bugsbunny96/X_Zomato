@@ -12,11 +12,25 @@
     display: inline-block;
     width: 222px;
     height: 52px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
     font-size: 33px;
     margin-left: 1%;
     text-align: center;
+    animation: revolve 10s infinite;
+}
+@keyframes revolve{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(15deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-15deg);}
+    100% {transform: rotate(0deg);}
+}
+.header-logo:hover{
+    background-color: #ce0505;
+}
+.header-logo a:hover{
+    color: rgba(255, 255, 255, 1);;
 }
 .header-logo a{
     text-decoration: none;
@@ -50,7 +64,7 @@ a{
 
 /* MAIN */
 #mainContent{
-    height: 500px;
+    height: 85%;
     width: 90%;
     margin-left: 5%;
     margin-top: 3%;
@@ -215,8 +229,8 @@ footer{
     background-color: #ce0505;
     height: 3.5%;
     width: 100%;
+    display: inline-block;
     bottom: 0%;
-    position: fixed;
 }
 .footerBottom{
     width: 95%;

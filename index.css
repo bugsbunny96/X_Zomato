@@ -17,6 +17,14 @@
     font-size: 33px;
     margin-left: 1%;
     text-align: center;
+    animation: revolve 10s infinite;
+}
+@keyframes revolve{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(15deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-15deg);}
+    100% {transform: rotate(0deg);}
 }
 .header-logo:hover{
     background-color: #ce0505;
@@ -127,6 +135,23 @@ select{
     margin-top: 2%;
     margin-left: 2%;
     box-shadow: 10px 20px 10px gray;
+    animation: dance 10s infinite;
+}
+@keyframes dance{
+    0% {transform: scale(1.1);}
+    25% {transform: rotate(-5deg);}
+    50% {transform: rotate(0deg);}
+    50% {transform: scale(0.95);}
+    75% {transform: rotate(5deg);}
+    100% {transform: rotate(0deg);}
+    100% {transform: scale(1.1);}
+}
+.tileContainer:hover{
+    box-shadow: 10px 20px 10px rgb(255, 33, 33);
+    /* transform: scale(1.1); */
+    /* transform: skewY(20deg); */
+    /* transform: rotate(20deg); */
+    
 }
 .tileComp1{
     width: 58%;
@@ -146,7 +171,9 @@ select{
 }
 .compHeading{
     font-size: 25px;
-    color: orangered;
+}
+.compHeading:hover{
+    font-size: 26px;
 }
 .compHeading a{
     color: orangered;
@@ -165,7 +192,9 @@ footer{
     width: 100%;
     display: inline-block;
     bottom: 0%;
-    margin-top: 2%;
+}
+.footerBottom{
+    width: 95%;
 }
 .footerBottom p{
     font-size: 14px;
@@ -173,11 +202,19 @@ footer{
     margin-top: 4px;
     margin-left: 32px;
     font-weight: bold;
+    color: #ffffff;
 }
 .footerBottom p a{
     color: rgb(0, 255, 213);
     font-weight: bold;
     font-size: 16px;
+}
+.footerBottom p span{
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2px;
+    color: #ffffff;
 }
 
 /* M_Q */
